@@ -1,5 +1,4 @@
-# Marcelo-Couoh-Tareas
-Tareas de la materia de Manejo masivo de Datos
+# Tareas de la materia de Manejo masivo de Datos
 
 Tareas Utm
 

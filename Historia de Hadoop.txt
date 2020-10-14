@@ -1,0 +1,6 @@
+# Hadoop
+
+Hadoop es un sofware de codigo abierto , que forma parte del principio del big data
+
+# Map reduce
+

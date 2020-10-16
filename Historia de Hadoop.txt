@@ -1,6 +1,19 @@
 # Hadoop
 
-Hadoop es un sofware de codigo abierto , que forma parte del principio del big data
+>Hadoop es un software de código abierto, que forma parte del principio del Big Data, ya que su desarrollo fue buscando una solución a la interrogante de, ¿cómo procesar la información de forma rápida y eficiente?, Al igual que por la parte de su almacenamiento existía esa interrogante. Antes de llegar a la herramienta que es hoy Hadoop, hubo pruebas de otras arquitecturas y tecnologías para lograr resolver estas situaciones. Un ejemplo de estas herramientas es Apache Nutch, que es un rastreador web, también conocido como bot, yendo de página en página para rastrear contenido y que junto a otra herramienta nombrada como “Lucene”, el cual es una herramienta que cuando busca un término inmediatamente  conoce todos los lugares en donde aparece ese término.
 
-# Map reduce
+>Las anteriores representan un proceso al inicio del big data solucionando con la nube para almacenar grandes volúmenes de datos.  En ese punto nadie trabajaba con el análisis de datos en tiempo real.
 
+>En el momento de la creación de dichas tecnologías los desarrolladores trabajaban en Google por lo que se conoce a Google como pionero en el desarrollo en tecnologías para el manejo masivo de datos.  Poco después los desarrolladores pasaron a trabajar a yahoo donde la investigación y trabajo para crear Hadoop siguieron.
+
+>La primera versión de Hadoop se creó el 1 de Abril de 2006 y  su función como código abierto, era empezar el cómputo en paralelo para procesar y analizar volúmenes muy grandes de datos. Las versiones posteriores lograron que Hadoop fuera un framework de código abierto extra portable a cualquier programa de procesamiento de datos, lo que permitió que sea totalmente adaptable a la vida real.
+
+>Las principales herramientas o primeras herramientas de Hadoop son el Map Reduce y HDFS.
+
+> -HDFS: Como la base para crear una mejor herramienta directamente HDFS es un mejoramiento de la herramienta Nutch, mejorando aspectos como: durabilidad, estructura variable, tolerante a fallas, auto sostenible y autónomo. Esto con el propósito de abstraer un almacenamiento del clúster presentando un  sistema confiable.
+Los desarrolladores Cutting y Cafarela siguieron el GFS de google y resolvieron
+
+> -Map Reduce: Es el procesamiento automático de los datos de todas las páginas webs, almacenados en el índex, lo que permite aprender todas las reglas, archivos o algoritmos dentro y crear un mapa que permita, estructurar toda la información , analizarla, almacenarla y simplificarla en un proceso de reducción como dice el nombre de la herramienta.
+Esto se traduce en la capacidad de tener una arquitectura escalable, robusta, y en ordenadores normales, ya que al ser open source es muy accesible reduciendo en si los mismos costos que se podrían generar al querer analizar tanta información.
+
+>En los años más recientes se generaron versiones mejoradas de Map Reduce llamada YARN (Yet Another Resource Negotiator). También se hicieron mejoras en las otras herramientas aunque claro está que al ser un framework libre genera miles de oportunidades.
